@@ -1,4 +1,3 @@
-
 #define RELAY_PIN    13 
 #define MOISTURE_PIN A0 
 #define THRESHOLD 480 //change threshold accordingly
