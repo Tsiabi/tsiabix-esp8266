@@ -7,7 +7,7 @@ void setup() {
   pinMode(RELAY_PIN, OUTPUT);
 }
 void loop() {
-  int value = analogRead(MOISTURE_PIN); // read the analog valuse for the moisture sensor
+  int value = analogRead(MOISTURE_PIN); // read the analog values for the moisture sensor
 
   if (value > THRESHOLD) {
     Serial.print("The soil is dry => turn the pump ON");
